@@ -8,7 +8,7 @@ This project applies RFM (Recency, Frequency, Monetary) analysis to segment cust
 
 ## 📸 Dashboard Preview
 
-![RFM Dashboard](RFM_ANALYSIS_DASHBOARD>pdf)
+![RFM Dashboard](RFM_ANALYSIS_DASHBOARD.pdf)
 
 ---
 
