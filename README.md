@@ -6,6 +6,19 @@ This project applies RFM (Recency, Frequency, Monetary) analysis to segment cust
 
 ---
 
+## 📸 Dashboard Preview
+
+![RFM Dashboard](RFM_ANALYSIS_DASHBOARD>pdf)
+
+---
+
+## 🔗 Live Dashboard
+
+[View Live Dashboard](https://datastudio.google.com/reporting/d08eb808-3ba3-4776-92b6-a51bf3f57b12)
+
+
+---
+
 ## 📌 RFM Concept
 
 RFM analysis evaluates customers based on:
@@ -74,8 +87,8 @@ FROM rfm_table;
 This view:
 - Calculates RFM scores using NTILE(5)
 - Combines scores into a 3-digit RFM score
-- Assigns customers into business segments
-- Creates a clean dataset for dashboarding
+- Groups customers into business segments
+- Prepares dataset for dashboard analysis
 
 ---
 
@@ -89,9 +102,9 @@ ORDER BY total_customers DESC;
 ```
 
 ### Insight
-- Loyal Customers are typically the largest segment  
-- Low Value Customers also appear in high volume  
-- Top Customers are fewer but more valuable  
+- Loyal Customers and Low Value Customers dominate in volume  
+- Top Customers are fewer but high value  
+- At Risk Customers need retention focus  
 
 ---
 
@@ -107,17 +120,16 @@ ORDER BY total_revenue DESC;
 ### Insight
 - Revenue is mainly driven by Low Value and Growing Customers  
 - Loyal Customers provide stable revenue  
-- Top Customers are valuable but not the largest revenue source  
+- Top Customers are not always highest revenue contributors  
 
 ---
 
 ## 🔍 Key Insights
 
-- Revenue is spread across multiple customer groups  
-- Loyal Customers form the core stable base  
-- Growing Customers represent upsell opportunities  
-- At Risk Customers need retention focus  
-- Top Customers are high priority for loyalty programs  
+- Customer base is mostly Loyal and Low Value segments  
+- Growing Customers present upsell opportunities  
+- At Risk Customers represent churn risk  
+- Top Customers require loyalty programs  
 
 ---
 
@@ -125,8 +137,8 @@ ORDER BY total_revenue DESC;
 
 - Customer segmentation strategy  
 - Marketing targeting  
-- Retention campaigns  
-- Revenue optimization  
+- Retention optimization  
+- Revenue analysis  
 - Customer lifetime value improvement  
 
 ---
